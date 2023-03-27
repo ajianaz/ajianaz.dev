@@ -1,7 +1,28 @@
+import 'package:ajianaz_dev/widgets/others/footer.dart';
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 class HomeController extends GetxController {
-  //TODO: Implement HomeController
+  final itemScrollController = ItemScrollController();
+
+  List<Widget> contents = const [
+    // GeneralIntroduction(),
+    // About(),
+    // Experience(),
+    // Project(),
+    // ProjectOther(),
+    // Contact(),
+    Footer(),
+  ];
+
+  Future<void> contentNavigation(int index) async {
+    await itemScrollController.scrollTo(
+      index: index,
+      curve: Curves.ease,
+      duration: const Duration(seconds: 1),
+    );
+  }
 
   final count = 0.obs;
   @override
