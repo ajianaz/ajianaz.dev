@@ -14,11 +14,11 @@ class ProfileCard extends StatelessWidget {
       child: Stack(
         children: [
           Positioned(
-            top: 20.h,
-            left: 20.h,
+            top: 25.h,
+            left: 25.h,
             child: Container(
-              width: 330.h,
-              height: 330.h,
+              width: 320.h,
+              height: 320.h,
               decoration: BoxDecoration(
                 border: Border.all(color: AppColor.primaryColor),
                 borderRadius: BorderRadius.circular(175.h),

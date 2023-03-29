@@ -18,17 +18,7 @@ class Footer extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              // IconButtonCustom(
-              //   isCustomIcon: true,
-              //   customIcon: 'ic_playstore.png',
-              //   iconSize: 30.h,
-              //   onPressed: () {
-              //     AppUtils.openLink(
-              //       'https://play.google.com/store/apps/dev?id=83242691795671707',
-              //     );
-              //   },
-              // ),
-              horizontalSpace(40.h),
+              horizontalSpace(20.h),
               IconButtonCustom(
                 isCustomIcon: true,
                 customIcon: 'ic_github.png',
@@ -37,7 +27,7 @@ class Footer extends StatelessWidget {
                   AppUtils.openLink('https://github.com/ajianaz');
                 },
               ),
-              verticalSpace(40.h),
+              horizontalSpace(20.h),
               IconButtonCustom(
                 isCustomIcon: true,
                 customIcon: 'ic_linkedin.png',
@@ -46,7 +36,7 @@ class Footer extends StatelessWidget {
                   AppUtils.openLink('https://www.linkedin.com/in/ajianaz');
                 },
               ),
-              verticalSpace(40.h),
+              horizontalSpace(20.h),
               IconButtonCustom(
                 isCustomIcon: true,
                 customIcon: 'ic_instagram.png',
@@ -55,7 +45,7 @@ class Footer extends StatelessWidget {
                   AppUtils.openLink('https://www.instagram.com/ajianaz/');
                 },
               ),
-              verticalSpace(40.h),
+              horizontalSpace(20.h),
               IconButtonCustom(
                 isCustomIcon: true,
                 customIcon: 'ic_youtube.png',
@@ -64,7 +54,7 @@ class Footer extends StatelessWidget {
                   AppUtils.openLink('https://www.youtube.com/@ajianaz');
                 },
               ),
-              verticalSpace(40.h),
+              horizontalSpace(40.h),
             ],
           )
         else
