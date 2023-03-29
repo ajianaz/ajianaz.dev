@@ -42,7 +42,7 @@ class GeneralIntroduction extends StatelessWidget {
         SizedBox(
           width: MediaQuery.of(context).size.width < 960
               ? double.infinity
-              : MediaQuery.of(context).size.width / 1.2,
+              : MediaQuery.of(context).size.width / 2.4,
           child: Text(
             App.Description,
             style: TextStyles.heeboText
