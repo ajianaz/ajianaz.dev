@@ -1,3 +1,4 @@
+import 'package:ajianaz_dev/constants/constant.dart';
 import 'package:ajianaz_dev/styles/colors.dart';
 import 'package:ajianaz_dev/widgets/buttons/floating_left_button.dart';
 // import 'package:ajianaz_dev/widgets/buttons/floating_right_button.dart';
@@ -16,7 +17,7 @@ class HomeView extends GetView<HomeController> {
   Widget build(BuildContext context) {
     return Title(
       color: Colors.black,
-      title: "Ajianaz Personal Website",
+      title: App.Title,
       child: Scaffold(
         backgroundColor: AppColor.backgroundColor,
         endDrawer: DrawerCustom(
