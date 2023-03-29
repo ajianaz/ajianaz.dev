@@ -1,3 +1,4 @@
+import 'package:ajianaz_dev/app/modules/home/views/widgets/about.dart';
 import 'package:ajianaz_dev/app/modules/home/views/widgets/general_introduction.dart';
 import 'package:ajianaz_dev/widgets/others/footer.dart';
 import 'package:flutter/material.dart';
@@ -9,7 +10,7 @@ class HomeController extends GetxController {
 
   List<Widget> contents = const [
     GeneralIntroduction(),
-    // About(),
+    About(),
     // Experience(),
     // Project(),
     // ProjectOther(),
