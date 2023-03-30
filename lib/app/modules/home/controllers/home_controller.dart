@@ -1,4 +1,5 @@
-import 'package:ajianaz_dev/app/modules/home/views/widgets/about.dart';
+import 'package:ajianaz_dev/app/modules/home/views/widgets/about/about.dart';
+import 'package:ajianaz_dev/app/modules/home/views/widgets/experience/experience.dart';
 import 'package:ajianaz_dev/app/modules/home/views/widgets/general_introduction.dart';
 import 'package:ajianaz_dev/widgets/others/footer.dart';
 import 'package:flutter/material.dart';
@@ -7,11 +8,12 @@ import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 class HomeController extends GetxController {
   final itemScrollController = ItemScrollController();
+  RxInt experienceIndex = RxInt(0);
 
   List<Widget> contents = const [
     GeneralIntroduction(),
     About(),
-    // Experience(),
+    Experience(),
     // Project(),
     // ProjectOther(),
     // Contact(),
@@ -26,18 +28,12 @@ class HomeController extends GetxController {
     );
   }
 
-  final count = 0.obs;
   @override
   void onInit() {
     super.onInit();
   }
 
-  @override
-  void onReady() {
-    super.onReady();
+  updateExperienceIndex(int index) {
+    experienceIndex.value = index;
   }
-
-  @override
-  void onClose() {}
-  void increment() => count.value++;
 }

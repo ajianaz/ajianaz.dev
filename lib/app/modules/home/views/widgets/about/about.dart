@@ -1,5 +1,5 @@
-import 'package:ajianaz_dev/app/modules/home/views/widgets/about_detail_large_screen.dart';
-import 'package:ajianaz_dev/app/modules/home/views/widgets/about_detail_small_screen.dart';
+import 'package:ajianaz_dev/app/modules/home/views/widgets/about/about_detail_large_screen.dart';
+import 'package:ajianaz_dev/app/modules/home/views/widgets/about/about_detail_small_screen.dart';
 import 'package:ajianaz_dev/data/data.dart';
 import 'package:ajianaz_dev/styles/colors.dart';
 import 'package:ajianaz_dev/styles/styles.dart';
