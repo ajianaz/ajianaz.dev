@@ -34,7 +34,7 @@ class Experience extends StatelessWidget {
                   padding: MediaQuery.of(context).size.width < 960
                       ? EdgeInsets.zero
                       : EdgeInsets.only(
-                          right: MediaQuery.of(context).size.width / 4.5,
+                          right: MediaQuery.of(context).size.width / 3.5,
                         ),
                   child: const Divider(color: AppColor.textColor1),
                 ),

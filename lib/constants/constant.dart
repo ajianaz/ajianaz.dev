@@ -25,4 +25,5 @@ class App {
 
   static String Description =
       'I am a Flutter application developer with over four years of experience in software development. My expertise includes developing various types of applications such as GIS (Geographic Information System) applications, attendance tracking and reporting';
+  static String Kominfo = "Dinas Komunikasi dan Informatika Prov. Jateng";
 }
