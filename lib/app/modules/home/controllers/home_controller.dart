@@ -3,6 +3,7 @@ import 'package:ajianaz_dev/app/modules/home/views/widgets/experience/experience
 import 'package:ajianaz_dev/app/modules/home/views/widgets/general_introduction.dart';
 import 'package:ajianaz_dev/app/modules/home/views/widgets/project/project.dart';
 import 'package:ajianaz_dev/app/modules/home/views/widgets/project/project_other.dart';
+import 'package:ajianaz_dev/widgets/others/contact.dart';
 import 'package:ajianaz_dev/widgets/others/footer.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -18,7 +19,7 @@ class HomeController extends GetxController {
     Experience(),
     Project(),
     ProjectOther(),
-    // Contact(),
+    Contact(),
     Footer(),
   ];
 
